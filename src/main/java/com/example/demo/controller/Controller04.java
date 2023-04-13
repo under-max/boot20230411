@@ -61,7 +61,7 @@ public class Controller04 {
 		System.out.println("age : " + age);
 	}
 	
-	@RequestMapping("link8") //String type 은 otherany로 간주되어 @RequestParam 안써도 가능
+	@RequestMapping("link8") //String type 은 other any로 간주되어 @RequestParam 안써도 가능
 	public void method07(String address) {
 		System.out.println(address);
 	}

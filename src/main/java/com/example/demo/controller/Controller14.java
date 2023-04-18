@@ -41,6 +41,7 @@ public class Controller14 {
 		PreparedStatement pstmt = con.prepareStatement(sql);
 		pstmt.setString(1, "%" + keyword1 + "%");
 		pstmt.setString(2, "%" + keyword2 + "%");
+	
 		ResultSet rs = pstmt.executeQuery();
 				
 		

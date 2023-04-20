@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("sub11")
 public class Controller11 {
 	
-	@Value("${spring.datasource.url}")
+	@Value("${spring.datasource.url}") // application.properties 사용하기 위함
 	private String url;
 	@Value("${spring.datasource.username}")
 	private String name;

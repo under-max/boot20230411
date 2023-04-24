@@ -90,5 +90,7 @@ public interface Mapper05 {
 			WHERE Employeeid = #{id}
 			""")
 	public int sql7(Employee employee);
+	
+	
 }
 

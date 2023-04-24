@@ -22,7 +22,7 @@
 			이름: <input type="text" name="firstName" value="${employee.firstName }"/><br/>
 			생년월일: <input type="date" name="birth" value="${employee.birth }"/><br/>
 			사진: <input type="text" name="photo" value="${employee.photo }"/><br/>
-			알림: <input type="text" name="notes" value="${employee.notes }"/><br/>
+			알림: <textarea name="notes" row="10" col="10"/>${employee.notes }<br/>
 			<input type="submit" value="제출"/>
 		</form>
 	</div>

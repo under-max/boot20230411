@@ -19,7 +19,7 @@
 			주소<input type="text" name="address" value="${customer.address }"/><br/>
 			도시<input type="text" name="city" value="${customer.city }"/><br/>
 			국가<input type="text" name="country" value="${customer.country }"/><br/>
-			우편번호<<input type="text" name="postalCode" value="${customer.postalCode }"/><br/>
+			우편번호<input type="text" name="postalCode" value="${customer.postalCode }"/><br/>
 			<<input type="submit" value="수정" />
 	</form>
 	</div>

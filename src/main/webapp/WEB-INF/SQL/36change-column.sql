@@ -1,0 +1,19 @@
+-- Change Column 칼럼 변경
+
+DESC MyTable13;
+ALTER TABLE MyTable13
+CHANGE COLUMN Col4 Col13 VARCHAR(20);
+
+INSERT INTO MyTable13 (Col13) 
+VALUES ('가나다라마바사');
+
+SELECT * FROM MyTable13;
+
+ALTER TABLE MyTable13
+CHANGE COLUMN Col13 col3 VARCHAR(3);
+
+-- 연습) Col10을 ccol20 VARCHAR(20) 으로 변경 
+DESC MyTable13;
+
+ALTER TABLE MyTable13
+CHANGE COLUMN Col5 Col20 VARCHAR(20);

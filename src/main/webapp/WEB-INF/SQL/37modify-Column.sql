@@ -1,0 +1,34 @@
+-- 컬럼 바꾸지 않고 속성만 변경할떄 
+
+DESC MyTable13;
+-- ModiFy-Column : 컬럼 타입 변경 
+
+ALTER TABLE MyTable13
+MODIFY COLUMN Col20 VARCHAR(40);
+
+SELECT * FROM MyTable13;
+
+ALTER TABLE MyTable13 
+Modify COLUMN Col13 VARCHAR(40);
+
+ALTER TABLE MyTable13 
+Modify COLUMN Col13 VARCHAR(3);
+
+-- 컬럼변경 연습
+
+DESC MyTable07;
+ALTER TABLE MyTable07 
+MODIFY COLUMN Col1 INT;
+
+--
+DESC MyTable13;
+ALTER TABLE MyTable13
+MODIFY COLUMN Col13 VARCHAR(40) FIRST;
+
+ALTER TABLE MyTable13
+MODIFY COLUMN Col20 VARCHAR(40) AFTER Col6;
+
+-- 연습) MyTable13 의 아무컬럼의 위치 변경 
+
+Alter TABLE MyTable13 
+Modify COLUMN Col13 VARCHAR(40) AFTER Col20;
